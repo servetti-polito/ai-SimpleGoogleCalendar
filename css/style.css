@@ -1,0 +1,87 @@
+body {
+    font-family: Helvetica;
+}
+div {
+/*    border: 1px solid black   */
+}
+
+.calendar {
+    margin: auto;
+    margin-top: 10px;
+    /* background-color: lightgrey; */
+    border: 1px solid rgb(160, 160, 160);;
+}
+
+.cal_times {
+    float: left;
+    width: 45px;
+    background-image: url('../img/Bg_RowHeaderCalendar.png');
+    background-repeat: repeat-y;
+}
+
+.cal_time {
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    font-family: Arial;
+    text-align: right;
+    vertical-align: text-bottom;
+    padding-top: 2px;
+    margin-bottom: -2px;
+    padding-right: 5px;
+    color: rgb(49, 142, 9);
+    border-top: 1px solid rgb(160, 160, 160)
+}
+
+.cal_header {
+    height: 31px;
+    background-image: url('../img/Bg_HeaderCalendar.png');
+    background-repeat: repeat-x;
+}
+
+.cal_day_header {
+    float: left;
+    font-weight: bold;
+    color: black;
+    height: 31px;
+    border-left: 1px solid rgb(160, 160, 160);
+    position:relative;
+}
+
+.cal_day_header span {
+    font-size: small;
+    position: absolute;
+    bottom: 5px;
+    margin: auto;
+    left: 10%;
+    /* right: 50%; */
+    color: rgb(49, 142, 9);
+}
+
+.cal_day_header:last-child {
+    border-right: 1px solid rgb(160, 160, 160);
+}
+
+.cal_body {
+    overflow-y: auto;
+
+}
+
+.cal_days {
+    border-top: 1px solid rgb(160, 160, 160);;
+    border-left: 1px solid rgb(160, 160, 160);;
+    background-color: white;
+    float: left;
+}
+
+.cal_day {
+    float: left;
+    position: relative;
+/*    border: 1px dashed green; */
+}
+
+.cal_half_hour {
+    border-right: 1px solid rgb(156, 191, 139);
+    border-bottom: 1px solid rgb(156, 191, 139);
+}
+
